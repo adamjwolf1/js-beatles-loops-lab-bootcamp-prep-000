@@ -6,6 +6,14 @@ function theBeatlesPlay(players, instruments) {
     return allPlayers;
 }
 
+function johnLennonFacts(array) {
+  var i = 0
+  while (i < array.length) {
+    array[i] += '!!!';
+    i++;
+  }
+  return array;
+}
 
 function iLoveTheBeatles(num) {
     var love = [];
